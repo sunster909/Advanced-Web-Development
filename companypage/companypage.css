@@ -1,0 +1,156 @@
+*{
+    background-color: #FAEDF7;
+    color: #505050;
+    font-family: 'Montserrat', sans-serif;
+}
+
+img{
+    width: 20em;
+    border: 2px dashed white;
+    opacity: 0.9;
+    margin: .5em;
+    }
+
+p{
+    font-size: 14px;
+    margin: 2em;
+}
+
+@media (min-width: 481px) {
+    #container{
+        display:flex;
+        flex-direction: row;
+        margin: 0;
+        padding: 0;
+        flex-wrap: nowrap;
+        
+    }
+    
+    .header, h2{
+      /*  border-bottom: 2px solid #DCC5D8; */
+    margin: 2em;
+       
+    }
+    
+    .header h1{
+    padding-top: 10px;
+    text-align: center;
+    font-size: 4.5em;
+    font-family: 'Loved by the King', sans-serif;
+    font-weight: 200;
+    letter-spacing: 10px;
+    /* background: -webkit-linear-gradient(#EEC1E4, #EA86B3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */ 
+ color: #7F5A73; 
+        
+}
+
+    .navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    overflow: hidden;
+    background-color: #FFF8FD;
+    margin: 2em;
+    }
+    
+    .navigation li{
+    list-style-type: none;
+    margin: 0;
+    padding:15px;
+    background-color: #FFF8FD;
+        
+    
+    }
+
+    .navigation a{
+     text-decoration: none;
+    background-color: #FFF8FD;
+    
+    }
+    
+    .navigation a:hover{
+    color: #DA86B3;
+    }
+    
+    .content{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content:  center;
+    align-items: baseline;
+    height: 80vh;
+    padding: 1em;
+    box-sizing: border-box;
+    
+    }
+    
+    .footer{
+    display:flex;
+    background-color: #FFF8FD;
+    justify-content: center;
+    margin: 2em;
+    
+    }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+    #container{
+        display:flex;
+        flex-direction: column;
+    }
+    
+    .header{
+    margin: 2em;
+        
+    }
+    
+    .header h1{
+    padding-top: 10px;
+    text-align: center;
+    font-size: 2em;
+    font-family: 'Loved by the King', sans-serif;
+    font-weight: 400;
+    letter-spacing: 10px;
+ color: #7F5A73; 
+        
+    }
+    
+    .navigation{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 1em;
+    }
+    
+    .navigation li{
+    list-style-type: none;
+    }
+    
+    .navigation a{
+        text-decoration: none;
+    }
+    
+    .navigation a:hover{
+        background-color: #FFF8FD;
+    }
+    
+    .content{
+        margin: 1em;
+        display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+    }
+    
+    img{
+        width: 25em;
+    }
+    
+    .footer{
+        display: flex;
+        justify-content: center;
+        background-color: #FFF8FD;
+    }
+}
