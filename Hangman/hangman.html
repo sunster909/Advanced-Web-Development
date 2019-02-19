@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+    
+<title>Hangman Game</title>
+    
+<style>
+    
+*{
+    background-color: #F8F4F7;
+    font-family: "Helvetica";
+    text-align: center;
+    }   
+h1{
+    font-size: 2.5em;
+    color: #BF88B0;
+    text-align: center;
+    }  
+h2{
+    font-size: 1.2em;
+    }
+        
+</style>
+    
+</head>
+    
+<body onload="startUp()">
+
+<h1>Welcome to Hangman: Disney Edition! </h1>
+    
+<h2>Please guess a letter</h2>
+    
+<input id="letter" type="text" size=5>
+    
+<button onclick="Letter()"> Guess </button>
+
+<div id="answer"></div>
+ <br>
+<div id="counter"></div>
+
+
+</body>
+    
+<script src="hangman.js"></script>
+    
+</html> 
