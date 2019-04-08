@@ -1,0 +1,55 @@
+*{
+    background-color: #F2DFEB;
+    text-align: center;
+}
+
+body, html{
+    height: 100%;
+    font-family: "Drugs";
+}
+
+a{
+    color: #505050;
+    padding: 20px;
+    text-decoration: none;
+    font-weight: 900;
+}
+
+a:hover{
+    color: #FBFBFB;
+}
+
+#weathercontainer{
+}
+
+h1{
+    font-family: "Avenir";
+    color: #FBFBFB;
+    text-align: center;
+    font-size: 50px;
+    padding: 10px;
+}
+
+nav{
+    display: block;
+    
+    padding-top: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+#idk{
+    text-align: center;
+    color: #505050;
+}
+
+img{
+    height: 170px;
+    padding: 5px;
+    display:inline-block;
+    overflow: hidden;
+    margin: 0 auto;
+    
+    opacity: 0.9;
+    border-radius: 30px;
+}
